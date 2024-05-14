@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+}
+
+.image {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 320px; /* Limit maximum width */
+    margin-bottom: 20px; /* Add spacing between image and text */
+}
+
+.text {
+    text-align: center; /* Center text */
+}
+
+h1 {
+    text-shadow: 2px 2px 4px rgba(17, 183, 212, 0.5); 
+    font-family: 'Brush Script MT', cursive;
+    font-size: 8vw; /* Responsive font size */
+    margin: 0; /* Remove default margin */
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0; /* Remove default margin */
+    text-align: justify;
+}

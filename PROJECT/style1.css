@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-family: 'Brush Script MT', cursive; /* Provide fallback fonts */
+    font-size: 6vw;
+}
+
+ul {
+    list-style: none;   
+}
+
+.decoration-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+
+.decoration-links li {
+    margin: 0 20px;
+}
+
+.decoration-links a {
+    text-decoration: none;
+    font-size: 4vw;
+    color: #333;
+    position: relative;
+    transition: color 0.3s ease;
+    margin: 5px;
+    text-shadow: 2px 2px 4px rgba(236, 40, 40, 0.5); 
+}
+
+.decoration-links a:before,
+.decoration-links a:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    transition: transform 0.3s ease;
+}
+
+.decoration-links a:before {
+    background-color: #f00; 
+}
+
+.decoration-links a:after {
+    background-color: #00f; 
+}
+
+.decoration-links a:hover:before,
+.decoration-links a:hover:after {
+    transform: scaleX(1); 
+}
+
+body {
+    background-image: url('n16.jpeg'); 
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+}
+    
+
